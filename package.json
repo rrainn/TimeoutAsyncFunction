@@ -1,0 +1,19 @@
+{
+  "name": "timeoutasyncfunction",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build:clean && npm run build",
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
+    "build:clean": "rimraf dist"
+  },
+  "author": "rrainn, Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
